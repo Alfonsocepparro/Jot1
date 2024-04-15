@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-image: url(./assets/backhead.png);
+    background-size: contain;
+    background-position: center;
+    height: 280px;
+}
+.hed{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.logo{
+    border-radius: 60%;
+    height: 130px;
+    padding-left: 20px;
+    background-size: cover;
+}
+.navBar ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 45px;
+    padding-right: 40px;
+    list-style: none;
+    text-decoration: underline;
+    font-size: 2rem;
+    font-family: Belleza;
+    color: #e8eddf;
+}
+html{
+    background-color: #faeaea;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.text{
+    text-align: center;
+}
+section div h1{
+    font-family: Belleza;
+    font-weight: bolder;
+}
+.jotSection{
+    height: 200px;
+    width: 200px;
+    align-self: center;
+    margin: auto; 
+}
+
+.p{
+    font-family: Belleza;
+    text-align: center;
+    max-width: 700px;
+    margin: auto;   
+    margin-top: 30px;
+    font-size: 2rem;
+}
+footer{
+    margin:  40px 0px 40px 0px;
+    border-top: solid black;
+}
+footer div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 10px;
+}
+footer div div{
+    gap: 20px;
+}
+.ultimosProductos{
+    padding-top: 60px;
+}
+.ultimosProductos h2{
+    text-align: center;
+    margin: 10px 0 30px 0;
+    border: solid #ffffff 6px;
+    padding: 6px;
+    font-size: 2rem;
+    text-decoration: underline solid black 2px;
+}
+.cardContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    width: 310px;
+    height: 500px;
+    border: solid #cb3d2b 5px;
+    border-radius: 10%;
+    overflow: hidden;
+}
+.infoUP{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.infoUP h4{
+    font-family: Belleza;
+    text-transform: capitalize;
+    text-decoration: underline solid black;
+}
+button{
+    padding: 6px;
+    border: none;
+    background-color: #cb3d2b;
+    border-radius: 10%;
+    color: #e8eddf;
+
+}
+.imgCard{
+    width: 300px;
+    height: 425px;
+}
